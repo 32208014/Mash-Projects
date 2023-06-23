@@ -1,0 +1,50 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>InfsP(2)</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>InfsP(2)</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="InfsP.csproj" File="InfsP.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.config">App.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form1.cs">Form1.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form1.Designer.cs">Form1.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form1.resx">Form1.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FormBookAppointment1.cs">FormBookAppointment1.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FormBookAppointment1.Designer.cs">FormBookAppointment1.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FormBookAppointment1.resx">FormBookAppointment1.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FormEmergency.cs">FormEmergency.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FormEmergency.Designer.cs">FormEmergency.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FormEmergency.resx">FormEmergency.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FormFirstTime.cs">FormFirstTime.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FormFirstTime.Designer.cs">FormFirstTime.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FormFirstTime.resx">FormFirstTime.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FormLogin.cs">FormLogin.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FormLogin.Designer.cs">FormLogin.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FormLogin.resx">FormLogin.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FormRegular.cs">FormRegular.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FormRegular.Designer.cs">FormRegular.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FormRegular.resx">FormRegular.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FormSignUp.cs">FormSignUp.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FormSignUp.Designer.cs">FormSignUp.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FormSignUp.resx">FormSignUp.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.resx">Resources.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.Designer.cs">Resources.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.settings">Settings.settings</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.Designer.cs">Settings.Designer.cs</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
